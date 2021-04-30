@@ -1,6 +1,6 @@
 # Leaflet Visualization
 
-
+This project uses Leaflet.js to visualize earthquake data on a map.
 
 
  **The Data**
