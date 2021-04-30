@@ -1,7 +1,6 @@
-# leaflet-challenge
+# Leaflet Visualization
 
 
-### Level 1: Basic Visualization
 
 
 1. **The Data**
@@ -11,16 +10,11 @@
 
 2. **Import & Visualize the Data**
 
-   This visualization features a map created using Leaflet.js that plots all of the earthquakes from the GeoJSON data set based on their longitude and latitude. The magnitude of each earthquake is reflected by the size of the marker, while depth is shown by color. Earthquakes with higher magnitudes appear larger and earthquakes with greater depth appear darker in color.
+   This visualization features a map created using Leaflet.js that plots all of the earthquakes from the GeoJSON data set based on their longitude and latitude. The magnitude of each earthquake is reflected by the size of the marker, while the depth is shown by color. Earthquakes with higher magnitudes appear larger and earthquakes with greater depth appear darker in color.
 
    Additionally, popups are included that provide additional information about the earthquake when a marker is clicked. A legend is also included to provide context for map data.
 
 
-- - -
-
-### Level 2: More Data (Optional)
-
-![5-Advanced](Images/5-Advanced.png)
 
 The USGS wants you to plot a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in a second data set and visualize it along side your original set of data. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
 
