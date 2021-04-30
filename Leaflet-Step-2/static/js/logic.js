@@ -80,8 +80,9 @@ d3.json(url, function(data) {
 // console.log(earthquakeLayer);
 // function makePlates(quakeLayer)
 // MAKING PLATE LAYER
-d3.json('PB2002_boundaries.json', function(data) {
+d3.json('././PB2002_boundaries.json', function(data) {
     // console.log(data);
+    // Leaflet-Step-2\PB2002_boundaries.json
 
     var plateLayer =  L.geoJSON(data);
     console.log(plateLayer);
