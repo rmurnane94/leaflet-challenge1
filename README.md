@@ -6,22 +6,15 @@
 
 1. **The Data**
 
-   The USGS provides earthquake data in a number of different formats, updated every 5 minutes. This project uses earthquake data in the GeoJSON format from the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) showing all earthquakes for a day.  The URL of this JSON is used to pull in the data for the visualization.
+   The USGS provides earthquake data in a number of different formats, updated every 5 minutes. This project uses earthquake data provided in the GeoJSON format from the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) showing all earthquakes for the last day.  The URL of this JSON is used to pull in the data for the visualization.
 
 
 2. **Import & Visualize the Data**
 
-   This visualization features a map aflet that plots all of the earthquakes from your data set based on their longitude and latitude.
+   This visualization features a map created using Leaflet.js that plots all of the earthquakes from the GeoJSON data set based on their longitude and latitude. The magnitude of each earthquake is reflected by the size of the marker, while depth is shown by color. Earthquakes with higher magnitudes appear larger and earthquakes with greater depth appear darker in color.
 
-   * Your data markers should reflect the magnitude of the earthquake by their size and and depth of the earth quake by color. Earthquakes with higher magnitudes should appear larger and earthquakes with greater depth should appear darker in color.
+   Additionally, popups are included that provide additional information about the earthquake when a marker is clicked. A legend is also included to provide context for map data.
 
-   * **HINT** the depth of the earth can be found as the third coordinate for each earthquake.
-
-   * Include popups that provide additional information about the earthquake when a marker is clicked.
-
-   * Create a legend that will provide context for your map data.
-
-   * Your visualization should look something like the map above.
 
 - - -
 
