@@ -1,6 +1,6 @@
 var url = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson';
 
-var API_KEY = "pk.eyJ1Ijoid29vb3Q2NjYiLCJhIjoiY2trdTIwc2c4MG92MzJvbjB4Zmlza3ZoZiJ9.xqc3Hp7hUOiqdeQkzXhFLQ";
+// var API_KEY = "pk.eyJ1Ijoid29vb3Q2NjYiLCJhIjoiY2trdTIwc2c4MG92MzJvbjB4Zmlza3ZoZiJ9.xqc3Hp7hUOiqdeQkzXhFLQ";
 
 
 
