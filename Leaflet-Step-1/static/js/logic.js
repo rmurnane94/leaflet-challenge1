@@ -57,7 +57,7 @@ L.geoJSON(data, {
     },
     
     style: function(feature) {
-        console.log(feature.geometry.coordinates[2]);
+        // console.log(feature.geometry.coordinates[2]);
         return {
         color: "purple",
         fillColor: getColor(feature.geometry.coordinates[2]),
