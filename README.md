@@ -2,6 +2,8 @@
 
 This project uses Leaflet.js to create an interactive map visualization of earthquake data.
 
+Visible [HERE](https://rmurnane94.github.io/leaflet-challenge1/)
+
 
  **The Data**
 
